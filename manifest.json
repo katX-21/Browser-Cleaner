@@ -1,0 +1,14 @@
+{
+  "name": "Browser Cleaner",
+  "manifest_version": 3,
+  "version": "1.0",
+  "permissions": ["cookies","browsingData"],  
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+    "48": "icon48.png"
+  },
+  "action": {
+    "default_popup": "cookie.html"
+  }
+ 
+}
